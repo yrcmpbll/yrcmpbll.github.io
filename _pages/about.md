@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yuri Campbell - Academic Summary"
+title: "Yuri Campbell, an academic summary"
 author_profile: true
 redirect_from: 
   - /about/
