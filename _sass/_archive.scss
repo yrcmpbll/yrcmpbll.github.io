@@ -48,22 +48,6 @@
   }
 }
 
-.archive__item-tag {
-  display: inline-block;
-  margin-left: 0.75em;
-  padding: 0.2em 0.65em;
-  font-size: $type-size-7;
-  font-weight: 600;
-  line-height: 1.2;
-  color: $info-color;
-  background-color: mix(#fff, $info-color, 92%);
-  border: 1px solid mix(#fff, $info-color, 78%);
-  border-radius: 999px;
-  vertical-align: middle;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-}
-
 /* remove border*/
 .page__content {
 
