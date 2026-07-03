@@ -13,6 +13,4 @@ The paper frames industry partner discovery for public research organizations as
 
 Keywords: industry partner selection, public research organizations, statistical classification, technology transfer, firm-level text features
 
-Note: Google Scholar lists 2020, while the journal issue metadata lists 2021.
-
 Recommended citation: Karl Trela, Yuri Campbell, Friedrich Dornbusch, and Anna Pohle. (2021). &quot;How to Find New Industry Partners for Public Research: A Classification Approach.&quot; <i>IEEE Transactions on Engineering Management 68(5), 1214–1231</i>.

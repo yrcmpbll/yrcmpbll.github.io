@@ -97,10 +97,6 @@ def build_body(record, citation):
     if key_phrases:
         sections.append("Keywords: " + ", ".join(html_escape(phrase) for phrase in key_phrases))
 
-    notes = str(record.get("notes") or "").strip()
-    if notes:
-        sections.append("Note: " + html_escape(notes))
-
     sections.append("Recommended citation: " + citation)
     return "\n\n".join(sections) + "\n"
 
@@ -111,7 +107,7 @@ def publication_date(year, year_index):
 
 
 def excerpt_text(record):
-    return str(record.get("abstract") or record.get("notes") or "").strip()
+    return str(record.get("abstract") or "").strip()
 
 
 def markdown_for_record(record, publication_date_value):

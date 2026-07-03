@@ -13,6 +13,4 @@ The paper studies how irreducibility and correlation structure can be quantified
 
 Keywords: hierarchical correlations, tripartite qubits, quantum entanglement, mutually unbiased bases, quantum information
 
-Note: arXiv record submitted in 2011 and revised in 2013.
-
 Recommended citation: Yuri Campbell and José Roberto Castilho Piqueira. (2011). &quot;Classical Hierarchical Correlation Quantification on Tripartite Qubit Mixed State Families.&quot; <i>arXiv preprint arXiv:1110.6128</i>.
