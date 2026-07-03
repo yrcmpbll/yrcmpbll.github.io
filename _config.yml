@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Academic Summary"
+title                    : "Yuri Campbell"
 title_separator          : "-"
 name                     : &name "Yuri Campbell"
-description              : &description "personal description"
+description              : &description "AI scientist working on knowledge-intensive NLP, large language models, and innovation research."
 url                      : https://yrcmpbll.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yrcmpbll/yrcmpbll.github.io" # "academicpages/academicpages.github.io"
@@ -24,8 +24,8 @@ author:
   avatar           : "profile.png"
   name             : "Yuri Campbell"
   pronouns         : # example: "she/her"  
-  bio              : "I like to use LLMs to solve problems."
-  location         : "Germany"
+  bio              : "AI scientist researching knowledge-intensive NLP, large language models, and knowledge transfer for innovation systems."
+  location         : "Leipzig, Saxony, Germany"
   employer         : "Fraunhofer Society"
   uri              : # URL
   email            : "none@example.org" 
