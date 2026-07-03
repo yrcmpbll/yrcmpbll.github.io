@@ -12,6 +12,16 @@
   {% assign title = post.title %}
 {% endif %}
 
+{% assign publication_category_title = nil %}
+{% if include.show_category_tag and post.collection == 'publications' and post.category %}
+  {% assign publication_category = site.publication_category[post.category] %}
+  {% if publication_category and publication_category.title %}
+    {% assign publication_category_title = publication_category.title %}
+  {% else %}
+    {% assign publication_category_title = post.category | replace: "-", " " | capitalize %}
+  {% endif %}
+{% endif %}
+
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
@@ -31,6 +41,9 @@
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+      {% if publication_category_title %}
+        <span class="archive__item-tag">{{ publication_category_title }}</span>
       {% endif %}
     </h2>
     
